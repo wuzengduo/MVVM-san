@@ -1,0 +1,54 @@
+/*初始化样式*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word}
+/*整体居中*/
+.main{
+	width:70em;
+	margin:0 auto;
+}
+/*输入样式*/
+.input{
+	margin:20px 5px;
+}
+.input input{
+	width:16em;
+	height: 2em;
+	line-height: 2em;
+}
+/*移除功能样式*/
+.remove{
+	margin: 20px 5px;
+}
+.remove span{
+	margin-right: 15px;
+	font-weight: bold;
+}
+#removeMessage{
+	background-color: #ADB5C5;
+    border: none;
+    border-radius: 5px; 
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+}
+/*展示样式*/
+.view h1{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.view p{
+	display: inline-block;
+	font-size: 2em;
+	height: 1em;
+	line-height:1em; 
+	text-align: center;
+	border-bottom: 1px solid #000; 
+	padding-bottom: 2px;
+	
+}
